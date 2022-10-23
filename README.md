@@ -1,13 +1,19 @@
 # Lab 1
+
 ## Perfomers
+
 Kosyuk Olexiy IS-01 Korsun Bogdan IO-06
 
 ## Goals
+
 - setup environment
+
 ## Task
+
 Create project in GitHub with minimal code-quality checks and autodepoly
 
 ### Requirements
+
 - new repo in GitHub
 - initial empty commit
 - add ESlint (as strict as possible)
@@ -19,7 +25,9 @@ Create project in GitHub with minimal code-quality checks and autodepoly
 - Add Editorconfig
 - Bonus: the same with TypeScript
 - Bonus: SonarCloud, https://github.com/SonarSource/sonarcloud-github-action
+
 ## Questions
+
 - dev Deps vs Deps
 - Why we have separate tooling for formatting/linting
 - Difference with VPS/FaaS?
