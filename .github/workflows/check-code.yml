@@ -1,4 +1,4 @@
-name: Check code
+name: Check code style
 'on': push
 jobs:
   build_and_preview:
