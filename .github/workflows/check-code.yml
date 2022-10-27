@@ -29,5 +29,5 @@ jobs:
 
       - name: Code Linting
         run: |
-          npm run eslint
-          npm run prettier
+          npm run lint
+          npm run format
