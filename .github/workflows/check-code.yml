@@ -1,5 +1,5 @@
 name: Continuous Integration
-on: 'push'
+on: 
 jobs:
   build_and_preview:
     runs-on: ubuntu-latest
