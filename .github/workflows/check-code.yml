@@ -1,9 +1,5 @@
 name: Check Code
-on:
-  pull_request:
-    branches:
-      - lab1
-  workflow_dispatch:
+on: 'push'
 jobs:
   build_and_preview:
     runs-on: ubuntu-latest
