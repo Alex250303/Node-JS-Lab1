@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename)
 
 const baseDir = path.join(__dirname, 'routes')
 
-async function loadRoutesDir (dirName, base) {
+async function loadRoutesDir(dirName, base) {
   const relativePath = path.join(base, dirName)
   const workDir = path.join(baseDir, relativePath)
 

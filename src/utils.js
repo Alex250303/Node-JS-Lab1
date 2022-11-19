@@ -1,4 +1,4 @@
-function safeJSON (data, fallback) {
+function safeJSON(data, fallback) {
   try {
     return JSON.parse(data)
   } catch {

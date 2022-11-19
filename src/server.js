@@ -10,7 +10,7 @@ const processedContentTypes = {
   'application/json': (json) => safeJSON(json, {}),
   'application/x-www-form-urlencoded': (data) => {
     return Object.fromEntries(new URLSearchParams(data))
-  }
+  },
 }
 
 const server = http.createServer(async (req, res) => {
