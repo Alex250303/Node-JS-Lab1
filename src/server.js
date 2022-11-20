@@ -41,7 +41,7 @@ server.on('clientError', (err, socket) => {
   if (err) console.log(err)
   socket.end('HTTP/1.1 400 bad request\r\n\r\n')
 })
-server.listen(parseInt(process.env.PORT) || 7000)
+server.listen(parseInt(process.env.PORT) || 8000)
 
 process.on('SIGINT', () => {
   server.close((error) => {
